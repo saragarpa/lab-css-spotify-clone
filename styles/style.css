@@ -12,12 +12,17 @@ body {
 }
 
 /*Nav*/
-nav {
+
+header {
+  position: fixed;
   background-color: #fff;
   width: 100%;
   top: 0;
-  padding: 0.5em;
-  position: fixed;
+  left: 0;
+  padding: 1em;
+}
+
+.navbar {
   flex-flow: wrap;
   display: flex;
   justify-content: space-between;
@@ -26,14 +31,12 @@ nav {
 
 nav ul {
   list-style-type: none;
-  margin-right: 0.6em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  margin-right: 0.6em;
 }
 
 nav li {
-  padding: 1.25em;
+  padding: 0.7em;
 }
 
 nav a {
@@ -42,7 +45,7 @@ nav a {
 }
 
 .spotify-logo {
-  width: 150px;
+  width: 160px;
   margin-left: 1.25em;
 }
 
